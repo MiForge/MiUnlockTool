@@ -27,8 +27,8 @@ echo
 run_step "Updating System & Fixing Broken Packages" \
 "yes | apt --fix-broken install && yes | apt update && yes | apt upgrade"
 
-run_step "Installing Python3" \
-"yes | pkg install python3"
+run_step "Installing python-pip" \
+"yes | pkg install python-pip"
 
 run_step "Installing termux-adb" \
 "curl -fsS https://raw.githubusercontent.com/nohajc/termux-adb/master/install.sh | bash"
