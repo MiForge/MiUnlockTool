@@ -83,4 +83,4 @@ Device codenames of respective brands can be found below:
 
 ---
 
-If you can't find an answer, check [closed issues](https://github.com/offici5l/MiUnlockTool/issues?q=is%3Aissue+is%3Aclosed) or [open a new one](https://github.com/offici5l/MiUnlockTool/issues/new).
+If you can't find an answer, check [closed issues](https://github.com/MiForge/MiUnlockTool/issues?q=is%3Aissue+is%3Aclosed) or [open a new one](https://github.com/MiForge/MiUnlockTool/issues/new).
