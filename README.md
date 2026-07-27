@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/offici5l/MiUnlockTool/releases/latest">
+<a href="https://github.com/MiForge/MiUnlockTool/releases/latest">
   <img src="https://img.shields.io/badge/MiUnlockTool-%23FF6900?style=flat&logo=xiaomi&logoColor=white" alt="MiUnlockTool" width="200"/>
 </a>
 
@@ -51,8 +51,8 @@ miunlock
 
 🤝 [Contributing](CONTRIBUTING.md)
 
-<a href="https://github.com/offici5l/MiUnlockTool/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=offici5l/MiUnlockTool" />
+<a href="https://github.com/MiForge/MiUnlockTool/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MiForge/MiUnlockTool" />
 </a>
 
 ---
