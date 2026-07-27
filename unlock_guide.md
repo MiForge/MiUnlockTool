@@ -12,7 +12,7 @@ Then go to: Settings → Additional settings → Developer options → Mi Unlock
 
 Tap "Add account and device"
 
-After successfully adding your account, install [MiUnlockTool](https://github.com/offici5l/MiUnlockTool/blob/main/INSTALL.md)
+After successfully adding your account, install [MiUnlockTool](https://github.com/MiForge/MiUnlockTool/blob/main/INSTALL.md)
 
 Run MiUnlockTool with the command:
 ```
