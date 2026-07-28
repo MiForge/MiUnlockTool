@@ -21,8 +21,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/offici5l/MiUnlockTool"
-"Bug Tracker" = "https://github.com/offici5l/MiUnlockTool/issues"
+Repository = "https://github.com/MiForge/MiUnlockTool"
 
 [project.scripts]
 miunlock = "miunlock.cli:main"
