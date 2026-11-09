@@ -66,6 +66,19 @@ def unlock_device(domain, service, fastboot_cmd):
         "uid": cookies.get("userId"),
     }
 
+    # /api/v2/nonce is single-use: the `clear` call above already consumed the
+    # nonce we fetched, so reusing it here makes the server answer
+    # 10005 "Invalid nonce param". Request a fresh one before unlocking.
+    r = "".join(random.choices("abcdefghijklmnopqrstuvwxyz", k=16))
+    nonce_resp = _send("/api/v2/nonce", {"r": r}, domain, ssecurity, cookies)
+    if "error" in nonce_resp:
+        console.print(f"\n[{RED}]{nonce_resp['error']}[/]\n")
+        return
+    if nonce_resp["code"] != 0:
+        console.print(f"\n[{RED}]{nonce_resp}[/]\n")
+        return
+    nonce = nonce_resp["nonce"]
+
     unlock_result = _send("/api/v3/ahaUnlock", {"appId": "1", "data": data, "nonce": nonce}, domain, ssecurity, cookies)
     if "error" in unlock_result:
         console.print(f"\n[{RED}]{unlock_result['error']}[/]\n")
