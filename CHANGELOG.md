@@ -239,3 +239,7 @@ fixes, improvements, and additions:
 ### Version 1.7.4:
 
 - improvements (added `pyaes` dependency)
+
+### Version 1.7.5:
+
+- Fix: error 10005 `Invalid nonce param`
